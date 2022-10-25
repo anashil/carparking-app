@@ -97,7 +97,7 @@ export const App = () => {
             <button className='btn btn-danger btn-md'
             onClick={()=>setbooks([])}>Remove All</button>
           </>}
-          {books.length < 1 && <div>No books are added yet</div>}
+          {books.length < 1 && <div>No cars are added yet</div>}
         </div>
 
       </div>
